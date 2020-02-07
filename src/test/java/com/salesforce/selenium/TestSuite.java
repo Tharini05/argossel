@@ -11,5 +11,6 @@ public class TestSuite extends BaseClass  {
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("12345");
         driver.findElement(By.xpath("//*[@id=\"Login\"]")).click();
         System.out.println(driver.findElement(By.xpath("//*[@id=\"error\"]")).getText());
+        System.out.println("Hi   ");
     }
 }
